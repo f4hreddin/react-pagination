@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* active */
+@layer components {
+    .active {
+        @apply bg-gray-100;
+    }
+}
