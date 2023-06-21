@@ -5,7 +5,7 @@ const Room = ({ params, Link }) => {
         <>
             <strong>Room Component</strong>
             <hr />
-            <Link to="main">Main Page</Link>
+            <Link to="main" clss="back">Main Page</Link>
             <br />
             <p>Room ID: {JSON.stringify(params)}</p>
         </>

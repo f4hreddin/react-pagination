@@ -57,7 +57,7 @@ const PaginationRouter = ({ routes }) => {
         }, [to, Navigate]);
 
         return React.createElement(element, {
-            className: `${isActive} ${clss}`,
+            className: `link ${isActive} ${clss}`,
             onClick: handleClick,
             children
         });
@@ -71,7 +71,7 @@ const PaginationRouter = ({ routes }) => {
                 <Link to="main" clss="mt-4 text-blue-500">Go to main page</Link>
             </div>
         );
-    }, [Link]);
+    }, []);
 
     return (
         <PaginationContext.Provider value={{ page: currentPage, Navigate, Link }}>

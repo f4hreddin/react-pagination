@@ -4,7 +4,16 @@
 
 /* active */
 @layer components {
-    .active {
-        @apply bg-gray-100;
+
+    .link{
+        @apply bg-indigo-600 rounded-md text-white px-4 py-2 m-1;
+    }
+
+    .back {
+        @apply bg-red-500 rounded-md text-white px-4 py-2 m-1;
+    }
+
+    .active{
+        @apply font-bold cursor-not-allowed opacity-80;
     }
 }

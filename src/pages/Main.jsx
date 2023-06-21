@@ -5,9 +5,7 @@ const Main = ({ Link }) => {
         <>
             <strong>Main Component</strong>
             <hr />
-            <Link to="main">Current Page</Link>
-            <br />
-            <Link to="room/1">Room 1 Page</Link>
+            <Link to="main">Current Page</Link><Link to="room/1">Room 1 Page</Link>
         </>
     );
 };
